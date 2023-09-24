@@ -47,7 +47,7 @@ class SchemeData {
   }
 
   @override
-  int get hashCode => Object.hash(
+  int get hashCode => hashValues(
       /*uuid, */
       licenseServerUrl,
       mimeType,
