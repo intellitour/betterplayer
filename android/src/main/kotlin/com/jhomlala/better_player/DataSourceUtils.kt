@@ -4,7 +4,7 @@ import android.net.Uri
 import com.google.android.exoplayer2.upstream.DataSource
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSource
 
-internal object DataSourceUtils {
+object DataSourceUtils {
     private const val USER_AGENT = "User-Agent"
     private const val USER_AGENT_PROPERTY = "http.agent"
 

@@ -8,7 +8,7 @@ import com.google.android.exoplayer2.upstream.cache.CacheDataSink
 import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter
 import com.google.android.exoplayer2.upstream.DefaultDataSource
 
-internal class CacheDataSourceFactory(
+class CacheDataSourceFactory(
     private val context: Context,
     private val maxCacheSize: Long,
     private val maxFileSize: Long,
