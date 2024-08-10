@@ -17,6 +17,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
+  better_player:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.84"
   boolean_selector:
     dependency: transitive
     description:
@@ -45,10 +52,10 @@ packages:
     dependency: "direct main"
     description:
       name: collection
-      sha256: a1ace0a119f20aabc852d165077c036cd864315bd99b7eaa10a60100341941bf
+      sha256: ee67cb0715911d28db6bf4af1026078bd6f0128b07a5f66fb2ed94ec6783c09a
       url: "https://pub.dev"
     source: hosted
-    version: "1.19.0"
+    version: "1.18.0"
   csslib:
     dependency: transitive
     description:
@@ -58,7 +65,7 @@ packages:
     source: hosted
     version: "1.0.0"
   cupertino_icons:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: cupertino_icons
       sha256: ba631d1c7f7bef6b729a622b7b752645a2d076dba9976925b8f25725a30e1ee6
@@ -95,7 +102,7 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_localizations:
-    dependency: "direct dev"
+    dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -110,7 +117,7 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_widget_from_html_core:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_widget_from_html_core
       sha256: df7c7c9e5ea144f7ab0adfbad733b4d4f7d408ab733c94e6e9fdcb327af92aa1
@@ -173,14 +180,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
-  lint:
-    dependency: "direct dev"
-    description:
-      name: lint
-      sha256: d758a5211fce7fd3f5e316f804daefecdc34c7e53559716125e6da7388ae8565
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.3.0"
   logging:
     dependency: transitive
     description:
@@ -206,7 +205,7 @@ packages:
     source: hosted
     version: "0.11.1"
   meta:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: meta
       sha256: bdb68674043280c3428e9ec998512fb681678676b3c54e773629ffe74419f8c7
@@ -395,7 +394,7 @@ packages:
     source: hosted
     version: "14.2.4"
   wakelock_plus:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: wakelock_plus
       sha256: "4fa83a128b4127619e385f686b4f080a5d2de46cff8e8c94eccac5fcf76550e5"
@@ -435,7 +434,7 @@ packages:
     source: hosted
     version: "1.0.4"
   xml:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: xml
       sha256: b015a8ad1c488f66851d762d3090a21c600e479dc75e68328c52774040cf9226
@@ -443,5 +442,5 @@ packages:
     source: hosted
     version: "6.5.0"
 sdks:
-  dart: ">=3.4.0 <4.0.0"
+  dart: ">=3.4.1 <4.0.0"
   flutter: ">=3.24.0"
